@@ -150,6 +150,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'Cadastro3Copy',
           path: '/cadastro3Copy',
           builder: (context, params) => Cadastro3CopyWidget(),
+        ),
+        FFRoute(
+          name: 'Edital',
+          path: '/edital',
+          builder: (context, params) => EditalWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

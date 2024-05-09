@@ -16,3 +16,4 @@ export '/pages/consultor_contato2/consultor_contato2_widget.dart'
 export '/pages/consultor_contato3/consultor_contato3_widget.dart'
     show ConsultorContato3Widget;
 export '/cadastro3_copy/cadastro3_copy_widget.dart' show Cadastro3CopyWidget;
+export '/edital/edital_widget.dart' show EditalWidget;
